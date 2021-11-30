@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/RC721.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
 
-contract MyNFT is ERC721URIStorage {
+contract Newsletter is ERC721 {
 
     constructor(address owner) ERC721("Thor's Hammer", "HAMR") public {
         _safeMint(owner, 1);
