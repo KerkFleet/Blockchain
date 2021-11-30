@@ -12,7 +12,7 @@ contract Newsletter is ERC721 {
     //override to set base uri
     function _baseURI() internal view virtual override returns(string memory) {
         // can use pinata to post data in a decentralized manner
-        return "https://github.com/KerkFleet/Blockchain/edit/master/Examples/NFTs/SimpleNFT/";
+        return "https://github.com/KerkFleet/Blockchain/blob/master/Examples/ERC721/SimpleNFT/";
     }
 
     //override to append json file name instead of tokeID since there is only one
