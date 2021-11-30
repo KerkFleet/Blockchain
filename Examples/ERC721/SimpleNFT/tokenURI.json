@@ -1,6 +1,6 @@
 {
     "name": "Thor's hammer",
     "description": "Mjölnir, the legendary hammer of the Norse god of thunder.",
-    "image": "https://github.com/KerkFleet/Blockchain/blob/master/Examples/NFTs/thor.png",
+    "image": "https://github.com/KerkFleet/Blockchain/blob/master/Examples/ERC721/SimpleNFT/thor.png",
     "strength": 20
 }
