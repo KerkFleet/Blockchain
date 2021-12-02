@@ -1,6 +1,6 @@
 
 {
-    "Edition": "First",
+    "name": "first publication",
     "description": "The first newsletter example",
     "image": "https://github.com/KerkFleet/Blockchain/blob/master/Examples/ERC721/BasicNewsletter/Newsletter.pdf",
 }
