@@ -1,5 +1,18 @@
 {
-    description: "The first newsletter NFT.",
-    image: "https://kerkfleet.github.io/Blockchain/examples/newsletter.png",
-    name: "First Newletter"
+ "title": "Welcome Newsletter",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "Edition-1",
+            "description": "Describes the edition of the newsletter"
+        },
+        "description": {
+            "type": "Welcome",
+            "description": "Welcomes users"
+        },
+        "image": {
+            "https://gateway.pinata.cloud/ipfs/QmTosTvzcdpXqe3xSP56exkN9HCXsBByURCrHkULsG6CCS",
+            "description": "https://gateway.pinata.cloud/ipfs/QmTosTvzcdpXqe3xSP56exkN9HCXsBByURCrHkULsG6CCS"
+        }
+    }
 }
